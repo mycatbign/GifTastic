@@ -1,3 +1,6 @@
+$(document).ready(function () {
+
+
 // global variables
 var a = "";
 var gifPic = "";
@@ -125,3 +128,5 @@ $(document).on("click", ".animal-btn", displayGifs);
 
 //call renderButtons which handles processing the animal topics array
 renderButtons();
+
+});
