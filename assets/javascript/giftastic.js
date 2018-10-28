@@ -49,7 +49,7 @@ $(document).ready(function () {
         imgArray = [];
         // gifPic holds the animal type for which to display gifs
         gifPic = $(this).attr("data-name");
-        queryURL = "https://api.giphy.com/v1/gifs/search?q=" + gifPic + "&api_key=e0MwLxHvsqdd04DcwvcITaqH89t4TrqO&limit=10&rating=g";
+        queryURL = "https://api.giphy.com/v1/gifs/search?q=" + gifPic + "&api_key=e0MwLxHvsqdd04DcwvcITaqH89t4TrqO&limit=10&rating=pg-13";
         // create ajax call for gifs for the specific button pushed 
         $.ajax({
             url: queryURL,
