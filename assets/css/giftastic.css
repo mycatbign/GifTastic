@@ -1,0 +1,41 @@
+/* style page for giphy API site */
+
+#animal-button-grp {
+    margin: 5px 5px 250px 5px;
+}
+
+.animal-btn {
+    background-color: green;
+    color: white;
+    border-radius: 10px;
+    padding: 10px 24px; /* Some padding */
+    float: left; /* Float the buttons side by side */
+}
+
+#animal-gifs {
+    margin: 0px 3px 0px 3px;
+    float: left;
+}
+
+#animal-gifs p {
+    text-align: center;
+}
+
+#animal-gifs img {
+    box-align: center;
+}
+
+.wrapper {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+  }
+
+
+
+
+
+
+
+
+

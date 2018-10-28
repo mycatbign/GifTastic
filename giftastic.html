@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Giphy App Homework Assignment</title>
+    <meta charset="utf-8">
+    <!-- Eric Meyer's reset CSS -->
+    <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+    <!-- Local style sheet -->
+    <link rel="stylesheet" type="text/css" href="assets/css/giftastic.css">
+    <!-- Bootstrap version 4.x -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <!-- AJAX -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+</head>
+
+<body>
+    <div class="container">
+        <!-- display a title -->
+        <div class="row">
+            <h1>Animal Giphy API Homework</h1>
+        </div>
+        <!-- display the buttons here -->
+        <div class="row">
+            <div class="col-lg-12">
+                <div id="animal-btn-grp">
+                    <!-- animal buttons will be placed here -->
+                </div>
+            </div>
+        </div>
+        <!-- single row with 2 columns to display gifs and search form -->
+        <div class="row">
+            <!-- display the gifs here -->
+            <div class="col-lg-8">
+                <div id="animal-gifs" class="wrapper">
+                </div>
+            </div>
+            <!-- display the search form here -->
+            <div class="col-lg-4">
+                <form id="animal-form">
+                    <label for="animal-input">Add an animal</label>
+                    <input id="animal-name" type="text">
+                    <input id="animal-submit" type="submit" value="Submit">
+                </form>
+            </div>
+        </div>
+
+        <!-- run giphy script -->
+        <script src="assets/javascript/giftastic.js" type="text/javascript"></script>
+
+    </div>
+</body>
+
+</html>
